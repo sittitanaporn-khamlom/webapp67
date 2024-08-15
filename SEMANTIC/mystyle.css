@@ -1,0 +1,45 @@
+nav{
+    border: 1px solid blue;
+    color: orangered;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+ul.menu{
+    display: flex;
+    color: chocolate;
+    text-decoration: none;
+}
+ul.menu a{
+    text-decoration: none;
+}
+
+.Sec01{
+    border: solid salmon;
+}
+.Sec01 h1{
+    color: blue;
+}
+.Sec01{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.act01{
+    border: 2px dotted greenyellow;
+    font-size: 2rem;
+    color :aliceblue;
+    background-image: url(1.jpg);
+}
+.act02{
+    border: solid blue;
+
+}
+.aside01{
+    border: 3px solid blue;
+    float: right;
+    background-color: beige;
+}
+.ft01{
+    margin: 10rem;
+}
