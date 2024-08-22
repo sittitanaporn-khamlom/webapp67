@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบ</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script>
+        function Homepage() {
+            window.location.href = "profile.html";
+        }
+    </script>
+    
+</head>
+<body>
+    <div class="login-container">
+        <h2>เข้าสู่ระบบผู้ใช้งาน</h2>
+        <img src="user.png" alt="ผู้ใช้งาน">
+        <form>
+            <label for="username">ชื่อผู้ใช้ :</label>
+            <br>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">รหัสผ่าน:</label>
+            <br>
+            <input type="password" id="password" name="password" required>
+
+            <button class="login-button" type="submit" onclick="Homepage"><a href="loginuser.html"></a>เข้าสู่ระบบ </button>
+        </form>
+        <a href="register.html">ลงทะเบียน</a>
+    </div>
+</body>
+</html>

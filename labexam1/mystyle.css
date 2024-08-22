@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+button {
+    background-color: orangered; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.login-container {
+    text-align: center;
+    margin: 100px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.login-button {
+    background-color: #4CAF50; /* สีเขียว */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+form {
+    text-align: center; 
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input {
+    width: 200px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-button {
+    background-color: #4CAF50; /* สีเขียว */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .clear {
+    background-color: #808080; /* สีเทา */
+    color: white;
+    /* สไตล์อื่นๆ เหมือนกับปุ่มสีฟ้า */
+  }

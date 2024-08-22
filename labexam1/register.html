@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>แบบฟอร์มสมัครสมาชิก</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+    <form>
+        <h2>สมัครสมาชิก</h2>
+        <h3>1. ข้อมูลส่วนตัว</h3>
+        <div class="form-group">
+            <label for="username">ชื่อผู้ใช้:</label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="fullname">ชื่อ-นามสกุล:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">เบอร์โทรศัพท์:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">อีเมล:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">รหัสผ่าน:</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <h3>2. ที่อยู่ปัจจุบัน</h3>
+        <div class="form-group">
+            <label for="zipcode">บ้านเลขที่:</label>
+            <br>
+            <input type="text" id="address" name="address" required><br>
+            <label for="province">จังหวัด:</label>
+            <br>
+            <input type="text" id="province" name="province" required><br>
+            <label for="district">อำเภอ:</label>
+            <br>
+            <input type="text" id="district" name="district" required><br>
+            <label for="subdistrict">ตำบล:</label>
+            <br>
+            <input type="text" id="subdistrict" name="subdistrict" required><br>
+            <label for="zipcode">รหัสไปรษณีย์:</label>
+            <br>
+            <input type="text" id="zipcode" name="zipcode" required><br>
+            <label for="addressdetail">รายละเอียดที่อยู่:</label>
+            <br>
+            <input type="text" id="addressdetail" name="addressdetail" required><br>
+            
+        </div>
+        <h3>3. รูปโปรไฟล์</h3>
+        <div class="form-group">
+            <input type="file" id="profile_picture" name="profile_picture">
+        </div>
+        <button class="login-button" type="submit"><a href="loginuser.html"></a>สมัครสมาชิก </button>
+        <input class="clear" type="reset" id="cancel" name="cancel" value="ยกเลิก">
+        
+
+</body>
+</html>
