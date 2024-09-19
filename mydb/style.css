@@ -1,0 +1,64 @@
+
+tr,td{
+    background-color: white;
+    border: 1px solid rgb(105, 105, 105);
+}
+th{
+    background-color: aquamarine;
+}
+table{
+    text-align: center;
+}
+button{
+    border: 2px solid rgb(0, 255, 242);
+    background-color: aquamarine;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* จัดกลางแนวนอน */
+    align-items: center; /* จัดกลางแนวตั้ง */
+    height: 100vh; /* ความสูงเต็มหน้าจอ */
+    margin: 0; /* ลบ margin ของ body */
+    background-color: #f0f0f0; /* สีพื้นหลัง */
+    font-family: Arial, sans-serif; /* ฟอนต์ที่ใช้ */
+}
+
+form {
+    background-color: white; /* สีพื้นหลังของฟอร์ม */
+    padding: 20px; /* การเว้นระยะภายใน */
+    border-radius: 8px; /* มุมมน */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงา */
+    width: 300px; /* ความกว้างของฟอร์ม */
+}
+
+p {
+    margin: 10px 0; /* การเว้นระยะระหว่างพารากราฟ */
+}
+
+label {
+    display: block; /* แสดง label เป็นบล็อก */
+    margin-bottom: 5px; /* การเว้นระยะด้านล่าง */
+}
+
+input[type="text"] {
+    width: 100%; /* ให้เต็มความกว้างของฟอร์ม */
+    padding: 10px; /* การเว้นระยะภายใน */
+    border: 1px solid #ccc; /* เส้นขอบ */
+    border-radius: 4px; /* มุมมน */
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50; /* สีพื้นหลังปุ่ม */
+    color: white; /* สีข้อความ */
+    border: none; /* ไม่มีเส้นขอบ */
+    padding: 10px; /* การเว้นระยะภายใน */
+    border-radius: 4px; /* มุมมน */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ไปที่ปุ่ม */
+    margin-top: 10px; /* การเว้นระยะด้านบน */
+    width: 100%; /* ให้ปุ่มเต็มความกว้าง */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049; /* สีเมื่อชี้ไปที่ปุ่ม */
+}
