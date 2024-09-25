@@ -23,6 +23,7 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+    
 }
 
 tr:nth-child(even) {
@@ -69,6 +70,7 @@ label {
     color: #555;
 }
 
+input[type="number"],
 input[type="text"],
 input[type="time"],
 input[type="date"] {
@@ -114,4 +116,12 @@ input[type="submit"]:hover {
 
 .back-button button:hover {
     background-color: #218838;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
