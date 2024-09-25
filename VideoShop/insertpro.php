@@ -27,7 +27,6 @@
         <p>
 
             <label>รายละเอียด</label>
-
             <input type="text" name="pdetail" id="pdetail">
 
         </p>
@@ -35,7 +34,6 @@
         <p>
 
             <label>ระยะเวลา</label>
-
             <input type="time" name="ptime" id="ptime">
 
         </p>
@@ -43,7 +41,6 @@
         <p>
 
             <label>วันที่</label>
-
             <input type="date" name="pdate" id="pdate">
 
         </p>
