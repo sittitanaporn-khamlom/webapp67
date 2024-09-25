@@ -27,7 +27,6 @@
         <p>
 
             <label>นามสกุล</label>
-
             <input type="text" name="mlastname" id="mlastname">
 
         </p>
@@ -35,7 +34,6 @@
         <p>
 
             <label>ที่อยู่</label>
-
             <input type="text" name="maddress" id="maddress">
 
         </p>
@@ -43,7 +41,6 @@
         <p>
 
             <label>เบอร์โทร</label>
-
             <input type="text" name="mtel" id="mtel">
 
         </p>
