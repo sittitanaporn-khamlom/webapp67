@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 26, 2024 at 02:04 AM
+-- Generation Time: Sep 26, 2024 at 02:30 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -45,6 +45,25 @@ INSERT INTO `actor` (`aid`, `aname`, `alastname`, `aaddress`, `aage`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `actor_product`
+--
+
+CREATE TABLE `actor_product` (
+  `aid` varchar(3) NOT NULL,
+  `pid` varchar(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `actor_product`
+--
+
+INSERT INTO `actor_product` (`aid`, `pid`) VALUES
+('1', '003'),
+('1', '004');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `member`
 --
 
@@ -62,6 +81,24 @@ CREATE TABLE `member` (
 
 INSERT INTO `member` (`mid`, `mname`, `mlastname`, `maddress`, `mtel`) VALUES
 ('1', 'สิทธิธนาพร', 'คำหลอม', 'กรุงเทพ', '0955215051');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `mem_product`
+--
+
+CREATE TABLE `mem_product` (
+  `mid` varchar(3) NOT NULL,
+  `pid` varchar(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `mem_product`
+--
+
+INSERT INTO `mem_product` (`mid`, `pid`) VALUES
+('1', '001');
 
 -- --------------------------------------------------------
 
@@ -99,10 +136,24 @@ ALTER TABLE `actor`
   ADD PRIMARY KEY (`aid`);
 
 --
+-- Indexes for table `actor_product`
+--
+ALTER TABLE `actor_product`
+  ADD KEY `aid` (`aid`),
+  ADD KEY `pid` (`pid`);
+
+--
 -- Indexes for table `member`
 --
 ALTER TABLE `member`
   ADD PRIMARY KEY (`mid`);
+
+--
+-- Indexes for table `mem_product`
+--
+ALTER TABLE `mem_product`
+  ADD KEY `mid` (`mid`),
+  ADD KEY `pid` (`pid`);
 
 --
 -- Indexes for table `product`
